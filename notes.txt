@@ -1,0 +1,14 @@
+Stylesheet Templates:
+[https://pages.github.com/themes/]
+* https://pages-themes.github.io/architect/
+* https://pages-themes.github.io/leap-day/
+* https://pages-themes.github.io/midnight/
+* https://pages-themes.github.io/minimal/
+* https://pages-themes.github.io/slate/
+* https://pages-themes.github.io/tactile/
+* https://pages-themes.github.io/time-machine/
+[https://www.w3schools.com/w3css/w3css_templates.asp]
+* https://www.w3schools.com/w3css/tryw3css_templates_cv.htm
+* https://www.w3schools.com/w3css/tryw3css_templates_teal.htm
+* https://www.w3schools.com/w3css/tryw3css_templates_architect.htm
+
