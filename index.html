@@ -56,58 +56,64 @@
 					-->
 					<hr>
 					
-					<p class="w3-large w3-text-theme">
+					<button onclick="toggle_acc('acc_lang')" class="w3-button w3-block w3-left-align w3-large w3-text-theme">
 						<b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b>
-					</p>
-					<p style="margin-bottom: .125rem;">Portuguese</p>
-					<div class="w3-light-grey w3-round-xlarge">
-						<div class="w3-round-xlarge w3-teal" style="height:18px; width:90%"></div>
+					</button>
+					<div id="acc_lang" class="w3-hide">
+						<p style="margin-bottom: .125rem;">Portuguese</p>
+						<div class="w3-light-grey w3-round-xlarge">
+							<div class="w3-round-xlarge w3-teal" style="height:18px; width:90%"></div>
+						</div>
+						<p style="margin-bottom: .125rem;">Spanish</p>
+						<div class="w3-light-grey w3-round-xlarge">
+							<div class="w3-round-xlarge w3-teal" style="height:18px; width:70%"></div>
+						</div>
 					</div>
-					<p style="margin-bottom: .125rem;">Spanish</p>
-					<div class="w3-light-grey w3-round-xlarge">
-						<div class="w3-round-xlarge w3-teal" style="height:18px; width:70%"></div>
-					</div>
-					<br>
+					<hr>
 
-					<p class="w3-large">
+					<button onclick="toggle_acc('acc_skil')" class="w3-button w3-block w3-left-align w3-large w3-text-theme">
 						<b><i class="fa fa-gears fa-fw w3-margin-right w3-text-teal"></i>Skills</b>
-					</p>
-					<p style="margin-bottom: .125rem;">Programming</p>
-					<div class="w3-light-grey w3-round-xlarge w3-small">
-						<div class="w3-container w3-center w3-round-xlarge w3-teal" style="height:18px; width:90%"></div>
+					</button>
+					<div id="acc_skil" class="w3-hide">
+						<p style="margin-bottom: .125rem;">Programming</p>
+						<div class="w3-light-grey w3-round-xlarge w3-small">
+							<div class="w3-container w3-center w3-round-xlarge w3-teal" style="height:18px; width:90%"></div>
+						</div>
+						<p style="margin-bottom: .125rem;">CAD/FEM</p>
+						<div class="w3-light-grey w3-round-xlarge w3-small">
+							<div class="w3-container w3-center w3-round-xlarge w3-teal" style="height:18px; width:85%"></div>
+						</div>
+						<p style="margin-bottom: .125rem;">Machining</p>
+						<div class="w3-light-grey w3-round-xlarge w3-small">
+							<div class="w3-container w3-center w3-round-xlarge w3-teal" style="height:18px; width:45%"></div>
+						</div>
 					</div>
-					<p style="margin-bottom: .125rem;">CAD/FEM</p>
-					<div class="w3-light-grey w3-round-xlarge w3-small">
-						<div class="w3-container w3-center w3-round-xlarge w3-teal" style="height:18px; width:85%"></div>
-					</div>
-					<p style="margin-bottom: .125rem;">Machining</p>
-					<div class="w3-light-grey w3-round-xlarge w3-small">
-						<div class="w3-container w3-center w3-round-xlarge w3-teal" style="height:18px; width:45%"></div>
-					</div>
-					<br>
+					<hr>
 
-					<p class="w3-large w3-text-theme">
+					<button onclick="toggle_acc('acc_prog')" class="w3-button w3-block w3-left-align w3-large w3-text-theme">
 						<b><i class="fa fas fa-terminal fa-fw w3-margin-right w3-text-teal"></i>Programming Languages</b>
-					</p>
-					<p style="margin-bottom: .125rem;">Python</p>
-					<div class="w3-light-grey w3-round-xlarge w3-small">
-						<div class="w3-round-xlarge w3-teal" style="height:18px; width:95%"></div>
-					</div>
-					<p style="margin-bottom: .125rem;">MATLAB</p>
-					<div class="w3-light-grey w3-round-xlarge w3-small">
-						<div class="w3-round-xlarge w3-teal" style="height:18px; width:85%"></div>
-					</div>
-					<p style="margin-bottom: .125rem;">C++</p>
-					<div class="w3-light-grey w3-round-xlarge w3-small">
-						<div class="w3-round-xlarge w3-teal" style="height:18px; width:50%"></div>
-					</div>
-					<p style="margin-bottom: .125rem;">Java</p>
-					<div class="w3-light-grey w3-round-xlarge w3-small">
-						<div class="w3-round-xlarge w3-teal" style="height:18px; width:45%"></div>
-					</div>
-					<p style="margin-bottom: .125rem;">JavaScript</p>
-					<div class="w3-light-grey w3-round-xlarge w3-small">
-						<div class="w3-round-xlarge w3-teal" style="height:18px; width:75%"></div>
+					</button>
+					<div id="acc_prog" class="w3-hide">
+						<p style="margin-bottom: .125rem;">Python</p>
+						<div class="w3-light-grey w3-round-xlarge w3-small">
+							<div class="w3-round-xlarge w3-teal" style="height:18px; width:95%"></div>
+						</div>
+						<p style="margin-bottom: .125rem;">MATLAB</p>
+						<div class="w3-light-grey w3-round-xlarge w3-small">
+							<div class="w3-round-xlarge w3-teal" style="height:18px; width:85%"></div>
+						</div>
+						<p style="margin-bottom: .125rem;">C++</p>
+						<div class="w3-light-grey w3-round-xlarge w3-small">
+							<div class="w3-round-xlarge w3-teal" style="height:18px; width:50%"></div>
+						</div>
+						<p style="margin-bottom: .125rem;">Java</p>
+						<div class="w3-light-grey w3-round-xlarge w3-small">
+							<div class="w3-round-xlarge w3-teal" style="height:18px; width:45%"></div>
+						</div>
+						<p style="margin-bottom: .125rem;">JavaScript</p>
+						<div class="w3-light-grey w3-round-xlarge w3-small">
+							<div class="w3-round-xlarge w3-teal" style="height:18px; width:75%"></div>
+						</div>
 					</div>
           <br>
 					
@@ -126,136 +132,140 @@
 			-->
 			
 			<div class="w3-container w3-card w3-white w3-margin-bottom">
-				<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-wrench fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Portfolio</h2>
-				<div class="w3-content w3-display-container" style="max-width:800px">
-					<div class="w3-display-container mySlides">
-						<img src="/img/hand_expl.png" style="width:100%" alt="Exploded view of mechanical hand">
-						<div class="w3-display-topleft w3-container w3-padding w3-light-grey">
-							CAD modeling project
+			
+				<button onclick="toggle_acc('acc_prtf')" class="w3-button w3-block w3-left-align w3-large w3-text-theme">
+					<h2 class="w3-text-grey"><i class="fa fa-wrench fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Portfolio</h2>
+				</button>
+				<div id="acc_prtf" class="w3-hide">
+				
+				
+					<!--h2 class="w3-text-grey w3-padding-16"><i class="fa fa-wrench fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Portfolio</h2-->
+					<div class="w3-content w3-display-container" style="max-width:800px">
+						<div class="w3-display-container mySlides">
+							<img src="/img/hand_expl.png" style="width:100%" alt="Exploded view of mechanical hand">
+							<div class="w3-display-topleft w3-container w3-padding w3-light-grey">
+								CAD modeling project
+							</div>
 						</div>
-					</div>
-					<div class="w3-display-container mySlides">
-						<img src="/img/out-i2.png" style="width:100%" alt="Visualization from resistor network simulation">
-						<div class="w3-display-topleft w3-container w3-padding w3-light-grey">
-							Simulation of current flowing through a nonlinear resistor network
+						<div class="w3-display-container mySlides">
+							<img src="/img/out-i2.png" style="width:100%" alt="Visualization from resistor network simulation">
+							<div class="w3-display-topleft w3-container w3-padding w3-light-grey">
+								Simulation of current flowing through a nonlinear resistor network
+							</div>
 						</div>
-					</div>
+						
+						<div class="w3-display-container mySlides">
+							<img src="https://www.stockvault.net/data/2007/03/01/102413/thumb16.jpg" style="width:100%">
+							<div class="w3-display-topleft w3-container w3-padding w3-light-grey">
+								Stock landscape image
+							</div>
+						</div>
 					
-					<div class="w3-display-container mySlides">
-						<img src="https://www.stockvault.net/data/2007/03/01/102413/thumb16.jpg" style="width:100%">
-						<div class="w3-display-topleft w3-container w3-padding w3-light-grey">
-							Stock landscape image
+						<!--img class="mySlides" src="/img/hand_expl.png" style="width:100%"-->
+						<!--img class="mySlides" src="/img/out-i2.png" style="width:100%"-->
+						<!--img class="mySlides" src="https://www.stockvault.net/data/2007/03/01/102413/thumb16.jpg" style="width:100%"-->
+						<div class="w3-center w3-container w3-section w3-xlarge w3-text-gray w3-display-bottommiddle" style="width:100%">
+							<div class="w3-left w3-hover-text-teal" onclick="plusDivs(-1)">&#10094;</div>
+							<div class="w3-right w3-hover-text-teal" onclick="plusDivs(1)">&#10095;</div>
+							<span class="w3-badge demo w3-border w3-transparent w3-hover-teal" onclick="currentDiv(1)"></span>
+							<span class="w3-badge demo w3-border w3-transparent w3-hover-teal" onclick="currentDiv(2)"></span>
+							<span class="w3-badge demo w3-border w3-transparent w3-hover-teal" onclick="currentDiv(3)"></span>
 						</div>
 					</div>
 				
-					<!--img class="mySlides" src="/img/hand_expl.png" style="width:100%"-->
-					<!--img class="mySlides" src="/img/out-i2.png" style="width:100%"-->
-					<!--img class="mySlides" src="https://www.stockvault.net/data/2007/03/01/102413/thumb16.jpg" style="width:100%"-->
-					<div class="w3-center w3-container w3-section w3-xlarge w3-text-gray w3-display-bottommiddle" style="width:100%">
-						<div class="w3-left w3-hover-text-teal" onclick="plusDivs(-1)">&#10094;</div>
-						<div class="w3-right w3-hover-text-teal" onclick="plusDivs(1)">&#10095;</div>
-						<span class="w3-badge demo w3-border w3-transparent w3-hover-teal" onclick="currentDiv(1)"></span>
-						<span class="w3-badge demo w3-border w3-transparent w3-hover-teal" onclick="currentDiv(2)"></span>
-						<span class="w3-badge demo w3-border w3-transparent w3-hover-teal" onclick="currentDiv(3)"></span>
-					</div>
 				</div>
-				
 				
 			</div>
 			
 			
 			<div class="w3-container w3-card w3-white w3-margin-bottom">
-				<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
-				<div class="w3-container">
-					<h5 class="w3-opacity"><b>Graduate Research Assistant, Brigham Young University</b></h5>
-					<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2023 – <span class="w3-tag w3-teal w3-round">Current</span></h6>
-					<ul>
-						<li>Studying damping in PBF AM parts</li>
-					</ul>
-					<hr>
+			
+				<button onclick="toggle_acc('acc_wrkx')" class="w3-button w3-block w3-left-align w3-large w3-text-theme">
+					<h2 class="w3-text-grey"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+				</button>
+				<div id="acc_wrkx" class="w3-hide">
+					
+					<div class="w3-container">
+						<h5 class="w3-opacity"><b>Graduate Research Assistant, Brigham Young University</b></h5>
+						<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2023 – <span class="w3-tag w3-teal w3-round">Current</span></h6>
+						<ul>
+							<li>Studying damping in PBF AM parts</li>
+						</ul>
+						<hr>
+					</div>
+					
+					<div class="w3-container">
+						<h5 class="w3-opacity"><b>Teaching Assistant, Brigham Young University</b></h5>
+						<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>August 2022 – April 2023</h6>
+						<ul>
+							<li>Held office hours to help teach undergraduate and graduate-level dynamic system modeling</li>
+						</ul>
+						<hr>
+					</div>
+					
+					<div class="w3-container">
+						<h5 class="w3-opacity"><b>Research Fellow, Los Alamos National Laboratory</b></h5>
+						<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2022 – August 2022</h6>
+						<ul>
+							<li>Researched dynamic finite element updating of bolted joints with experimental modal analysis</li>
+						</ul>
+						<hr>
+					</div>
+					
+					<div class="w3-container">
+						<h5 class="w3-opacity"><b>Undergraduate Research Assistant, Brigham Young University</b></h5>
+						<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>August 2022 – April 2023</h6> 
+						<ul>
+							<li>Studied neuromorphic nanostrand networks</li>
+							<li>Developed GPU-accelerated software for simulating large nonlinear resistor networks</li>
+							<li>Worked on a team to redesign and manufacture a pneumatically actuated joint for a soft robot</li>
+						</ul>
+						<hr>
+					</div>
+					
+					<div class="w3-container">
+						<h5 class="w3-opacity"><b>Programmer, Contracted</b></h5>
+						<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>February 2016 - May 2022</h6>
+						<ul>
+							<li>Dynamic website development</li>
+							<li>Created the server-side and client-side programs and designed the user interface</li>
+						</ul>
+						<hr>
+					</div>
+					
+					<div class="w3-container">
+						<h5 class="w3-opacity"><b>Volunteer, Church of Jesus Christ of Latter-day Saints - Pernambuco, Brazil</b></h5>
+						<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2017 - October 2019</h6> 
+						<ul>
+							<li>Maintained rigorous 60+ hour work weeks</li>
+							<li>Led groups of 6 to 30, providing training, support, and supervision</li>
+						</ul>
+						<hr>
+					</div>
+				
 				</div>
 				
-				<div class="w3-container">
-					<h5 class="w3-opacity"><b>Teaching Assistant, Brigham Young University</b></h5>
-					<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>August 2022 – April 2023</h6>
-					<ul>
-						<li>Held office hours to help teach undergraduate and graduate-level dynamic system modeling</li>
-					</ul>
-					<hr>
-				</div>
-				
-				<div class="w3-container">
-					<h5 class="w3-opacity"><b>Research Fellow, Los Alamos National Laboratory</b></h5>
-					<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2022 – August 2022</h6>
-					<ul>
-						<li>Researched dynamic finite element updating of bolted joints with experimental modal analysis</li>
-					</ul>
-					<hr>
-				</div>
-				
-				<div class="w3-container">
-					<h5 class="w3-opacity"><b>Undergraduate Research Assistant, Brigham Young University</b></h5>
-					<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>August 2022 – April 2023</h6> 
-					<ul>
-						<li>Studied neuromorphic nanostrand networks</li>
-						<li>Developed GPU-accelerated software for simulating large nonlinear resistor networks</li>
-						<li>Worked on a team to redesign and manufacture a pneumatically actuated joint for a soft robot</li>
-					</ul>
-					<hr>
-				</div>
-				
-				<div class="w3-container">
-					<h5 class="w3-opacity"><b>Programmer, Contracted</b></h5>
-					<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>February 2016 - May 2022</h6>
-					<ul>
-						<li>Dynamic website development</li>
-						<li>Created the server-side and client-side programs and designed the user interface</li>
-					</ul>
-					<hr>
-				</div>
-				
-				<div class="w3-container">
-					<h5 class="w3-opacity"><b>Volunteer, Church of Jesus Christ of Latter-day Saints - Pernambuco, Brazil</b></h5>
-					<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2017 - October 2019</h6> 
-					<ul>
-						<li>Maintained rigorous 60+ hour work weeks</li>
-						<li>Led groups of 6 to 30, providing training, support, and supervision</li>
-					</ul>
-					<hr>
-				</div>
-				
-				
-				<!-- Feb 2016 – May 2022 -->
-				<!-- Programmer, Contracted -->
-				<!-- •	Dynamic website development -->
-				<!-- •	Created the server-side and client-side programs and designed the user interface -->
-				<!-- Oct 2017 – Oct 2019 • Pernambuco, Brazil -->
-				<!-- Volunteer, Church of Jesus Christ of Latter-day Saints -->
-				<!-- •	Maintained rigorous 60+ hour work weeks -->
-				<!-- •	Led groups of 6 to 30, providing training, support, and supervision -->
-
-				
-				<!--
-				<div class="w3-container">
-					<h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
-					<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
-				</div>
-				-->
 			</div>
 
 			<div class="w3-container w3-card w3-white">
-				<h2 class="w3-text-grey w3-padding-16"><i class="fa fas fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-				<div class="w3-container">
-					<h5 class="w3-opacity"><b>Brigham Young University, Provo, UT</b></h5>
-					<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - Present</h6>
-					<ul>
-						<li>Master of Science in Mechanical Engineering (Expected April 2025)</li>
-						<li>Bachelor of Science in Mechanical Engineering (April 2023)</li>
-						<li>Scholastic honors: <i>magna cum laude</i> (GPA: 3.99)</li>
-					</ul>
-					<hr>
+			
+				<button onclick="toggle_acc('acc_educ')" class="w3-button w3-block w3-left-align w3-large w3-text-theme">
+					<h2 class="w3-text-grey"><i class="fa fas fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+				</button>
+				<div id="acc_educ" class="w3-hide w3-show">
+				
+					<div class="w3-container">
+						<h5 class="w3-opacity"><b>Brigham Young University, Provo, UT</b></h5>
+						<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - Present</h6>
+						<ul>
+							<li>Master of Science in Mechanical Engineering (Expected April 2025)</li>
+							<li>Bachelor of Science in Mechanical Engineering (April 2023)</li>
+							<li>Scholastic honors: <i>magna cum laude</i> (GPA: 3.99)</li>
+						</ul>
+						<hr>
+					</div>
 				</div>
+				
 			</div>
 
 		<!-- End Right Column -->
@@ -295,6 +305,19 @@
 
 
 <script>
+// For accordians
+
+function toggle_acc(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// For slideshow
+
 var slideIndex = 1;
 showDivs(slideIndex);
 
