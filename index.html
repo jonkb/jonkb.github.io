@@ -5,10 +5,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<style>
 	html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+	.mySlides {display:none}
+	.w3-left, .w3-right, .w3-badge {cursor:pointer}
+	.w3-badge {height:13px;width:13px;padding:0}
 	</style>
 </head>
 <body class="w3-light-grey">
@@ -35,17 +38,16 @@
 					<h2>Jonathan Knight Black</h2>
 					
 					<p>
-						<i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>
-						Graduate Research Assistant
+						<i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal">
+						</i>Graduate Research Assistant
 					</p>
 					
 					<a href="https://www.linkedin.com/in/jk-black/">
 						<p class="w3-hover-opacity">
-							<i class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-teal"></i>
-							LinkedIn
+							<i class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-teal">
+							</i>LinkedIn
 						</p>
 					</a>
-					
 					
 					<!--
 					<p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>HOME</p>
@@ -80,7 +82,7 @@
 					</div>
 					<p style="margin-bottom: .125rem;">Machining</p>
 					<div class="w3-light-grey w3-round-xlarge w3-small">
-						<div class="w3-container w3-center w3-round-xlarge w3-teal" style="height:18px; width:50%"></div>
+						<div class="w3-container w3-center w3-round-xlarge w3-teal" style="height:18px; width:45%"></div>
 					</div>
 					<br>
 
@@ -93,19 +95,19 @@
 					</div>
 					<p style="margin-bottom: .125rem;">MATLAB</p>
 					<div class="w3-light-grey w3-round-xlarge w3-small">
-						<div class="w3-round-xlarge w3-teal" style="height:18px; width:90%"></div>
+						<div class="w3-round-xlarge w3-teal" style="height:18px; width:85%"></div>
 					</div>
 					<p style="margin-bottom: .125rem;">C++</p>
 					<div class="w3-light-grey w3-round-xlarge w3-small">
-						<div class="w3-round-xlarge w3-teal" style="height:18px; width:45%"></div>
+						<div class="w3-round-xlarge w3-teal" style="height:18px; width:50%"></div>
 					</div>
 					<p style="margin-bottom: .125rem;">Java</p>
 					<div class="w3-light-grey w3-round-xlarge w3-small">
-						<div class="w3-round-xlarge w3-teal" style="height:18px; width:55%"></div>
+						<div class="w3-round-xlarge w3-teal" style="height:18px; width:45%"></div>
 					</div>
 					<p style="margin-bottom: .125rem;">JavaScript</p>
 					<div class="w3-light-grey w3-round-xlarge w3-small">
-						<div class="w3-round-xlarge w3-teal" style="height:18px; width:80%"></div>
+						<div class="w3-round-xlarge w3-teal" style="height:18px; width:75%"></div>
 					</div>
           <br>
 					
@@ -117,13 +119,44 @@
 
 		<!-- Right Column -->
 		<div class="w3-twothird">
-		
+				
+			<h2>PAGE IN PROGRESS</h2>
+			
+			<!-- TODO: Portfolio 
+			-->
+			
+			<div class="w3-container w3-card w3-white w3-margin-bottom">
+				<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-wrench fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Portfolio</h2>
+				<div class="w3-content w3-display-container" style="max-width:800px">
+					<img class="mySlides" src="/img/hand_expl.png" style="width:100%">
+					<img class="mySlides" src="/img/out-i2.png" style="width:100%">
+					<!--img class="mySlides" src="https://www.stockvault.net/data/2007/03/01/102413/thumb16.jpg" style="width:100%"-->
+					<div class="w3-center w3-container w3-section w3-xlarge w3-text-gray w3-display-bottommiddle" style="width:100%">
+						<div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+						<div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+						<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+						<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+						<!--span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span-->
+					</div>
+				</div>
+				
+				
+			</div>
+			
+			
 			<div class="w3-container w3-card w3-white w3-margin-bottom">
 				<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
 				<div class="w3-container">
+					<h5 class="w3-opacity"><b>Graduate Research Assistant, Brigham Young University</b></h5>
+					<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2023 – <span class="w3-tag w3-teal w3-round">Current</span></h6>
+					<p>Studying damping in PBF AM parts</p>
+					<hr>
+				</div>
+				
+				<div class="w3-container">
 					<h5 class="w3-opacity"><b>Teaching Assistant, Brigham Young University</b></h5>
-					<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>August 2022 – April 2023</h6> <!--<span class="w3-tag w3-teal w3-round">Current</span>-->
-					<p>Held office hours to help teach dynamic system modeling</p>
+					<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>August 2022 – April 2023</h6>
+					<p>Held office hours to help teach undergraduate and graduate-level dynamic system modeling</p>
 					<hr>
 				</div>
 				
@@ -134,7 +167,25 @@
 					<hr>
 				</div>
 				
-				<h2>PAGE IN PROGRESS</h2>
+				<div class="w3-container">
+					<h5 class="w3-opacity"><b>Undergraduate Research Assistant, Brigham Young University</b></h5>
+					<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>August 2022 – April 2023</h6> 
+					<p>Studied neuromorphic nanostrand networks</p>
+					<p>Developed GPU-accelerated software for simulating large nonlinear resistor networks</p>
+					<p>Worked on a team to redesign and manufacture a pneumatically actuated joint for a soft robot</p>
+					<hr>
+				</div>
+				
+				
+				<!-- Feb 2016 – May 2022 -->
+				<!-- Programmer, Contracted -->
+				<!-- •	Dynamic website development -->
+				<!-- •	Created the server-side and client-side programs and designed the user interface -->
+				<!-- Oct 2017 – Oct 2019 • Pernambuco, Brazil -->
+				<!-- Volunteer, Church of Jesus Christ of Latter-day Saints -->
+				<!-- •	Maintained rigorous 60+ hour work weeks -->
+				<!-- •	Led groups of 6 to 30, providing training, support, and supervision -->
+
 				
 				<!--
 				<div class="w3-container">
@@ -191,6 +242,37 @@
 	<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 	-->
 </footer>
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
 
 </body>
 </html>
