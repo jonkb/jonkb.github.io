@@ -14,268 +14,120 @@
 	.w3-badge {height:13px;width:13px;padding:0}
 	</style>
 </head>
-<body class="w3-light-grey">
+<body class="w3-light-grey w3-content" style="max-width:1600px">
 
 <!-- This template came from https://www.w3schools.com/w3css/tryw3css_templates_cv.htm -->
+<!-- And https://www.w3schools.com/w3css/tryw3css_templates_portfolio.htm#portfolio -->
 
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
 
-	<!-- The Grid -->
-	<div class="w3-row-padding">
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:20rem;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="/img/tree.jpg" style="width:90%;" class="w3-round"><br><br>
+    <h4><b>Jonathan Knight Black</b></h4>
+    <p class="w3-text-grey">Mechanical engineering researcher</p>
+  </div>
+  <div class="w3-bar-block">
+		<!--Sidebar menu-->
+    <a href="/index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
+    <a href="/resume.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>RESUME</a> 
+    <!--<a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>-->
+  </div>
+  <div class="w3-panel w3-large">
+		<p style="word-spacing: 1rem;">
+			<a href="https://www.linkedin.com/in/jk-black/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+			<a href="https://github.com/jonkb"><i class="fa fa-github w3-hover-opacity"></i></a>
+			<a href="https://orcid.org/0000-0002-9324-915X"><i class="fa fas fa-flask w3-hover-opacity"></i></a>
+		</p>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:20rem">
+
+  <!-- Header -->
+  <header id="portfolio">
+	<!--The w3-hide-large class is hidden when the screen is large-->
+    <a href="#"><img src="/img/20220213.jpg" style="width:4rem;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+		<h1>PAGE IN PROGRESS</h1>
+    <div class="w3-container w3-center">
+			<h1><b>Portfolio</b></h1>
+    </div>
+  </header>
+  
+	<!-- Portfolio Gallery -->
+	<div class="w3-container w3-card w3-white w3-margin-bottom w3-padding">
 	
-		<!-- Left Column -->
-		<div class="w3-third">
+		<!--h2 class="w3-text-grey w3-padding-16"><i class="fa fa-wrench fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Portfolio</h2-->
+		<div class="w3-content w3-display-container" style="max-width:800px">
+			<div class="w3-display-container mySlides">
+				<img src="/img/hand_expl.png" style="width:100%" alt="Exploded view of mechanical hand">
+				<div class="w3-display-topmiddle w3-container w3-padding w3-light-grey w3-opacity">
+					CAD modeling project
+				</div>
+			</div>
+			<div class="w3-display-container mySlides">
+				<img src="/img/out-i2.png" style="width:100%" alt="Visualization from resistor network simulation">
+				<div class="w3-display-topmiddle w3-container w3-padding w3-light-grey w3-opacity">
+					Simulation of current flowing through a nonlinear resistor network
+				</div>
+			</div>
+			
+			<div class="w3-display-container mySlides">
+				<img src="https://www.stockvault.net/data/2007/03/01/102413/thumb16.jpg" style="width:100%">
+				<div class="w3-display-topmiddle w3-container w3-padding w3-light-grey w3-opacity">
+					Stock landscape image
+				</div>
+			</div>
 		
-			<div class="w3-white w3-text-grey w3-card-4">
-				<div class="w3-display-container">
-					<img src="/img/tree.jpg" style="width:100%" alt="Avatar">
-					<!-- <div class="w3-display-bottomleft w3-container w3-text-black"> -->
-						<!-- <h2 class="w3-text-light-grey w3-dark-grey">Jonathan Knight Black</h2> -->
-					<!-- </div> -->
-				</div>
-				<div class="w3-container">
-					<h2>Jonathan Knight Black</h2>
-					
-					<p>
-						<i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal">
-						</i>Graduate Research Assistant
-					</p>
-					
-					<a href="https://www.linkedin.com/in/jk-black/">
-						<p class="w3-hover-opacity">
-							<i class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-teal">
-							</i>LinkedIn
-						</p>
-					</a>
-					
-					<!--
-					<p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>HOME</p>
-					<p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>EMAIL</p>
-					<p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>PHONE</p>
-					-->
-					<hr>
-					
-					<button onclick="toggle_acc('acc_lang')" class="w3-button w3-block w3-left-align w3-large w3-text-theme">
-						<b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b>
-					</button>
-					<div id="acc_lang" class="w3-hide">
-						<p style="margin-bottom: .125rem;">Portuguese</p>
-						<div class="w3-light-grey w3-round-xlarge">
-							<div class="w3-round-xlarge w3-teal" style="height:18px; width:90%"></div>
-						</div>
-						<p style="margin-bottom: .125rem;">Spanish</p>
-						<div class="w3-light-grey w3-round-xlarge">
-							<div class="w3-round-xlarge w3-teal" style="height:18px; width:70%"></div>
-						</div>
-					</div>
-					<hr>
-
-					<button onclick="toggle_acc('acc_skil')" class="w3-button w3-block w3-left-align w3-large w3-text-theme">
-						<b><i class="fa fa-gears fa-fw w3-margin-right w3-text-teal"></i>Skills</b>
-					</button>
-					<div id="acc_skil" class="w3-hide">
-						<p style="margin-bottom: .125rem;">Programming</p>
-						<div class="w3-light-grey w3-round-xlarge w3-small">
-							<div class="w3-container w3-center w3-round-xlarge w3-teal" style="height:18px; width:90%"></div>
-						</div>
-						<p style="margin-bottom: .125rem;">CAD/FEM</p>
-						<div class="w3-light-grey w3-round-xlarge w3-small">
-							<div class="w3-container w3-center w3-round-xlarge w3-teal" style="height:18px; width:85%"></div>
-						</div>
-						<p style="margin-bottom: .125rem;">Machining</p>
-						<div class="w3-light-grey w3-round-xlarge w3-small">
-							<div class="w3-container w3-center w3-round-xlarge w3-teal" style="height:18px; width:45%"></div>
-						</div>
-					</div>
-					<hr>
-
-					<button onclick="toggle_acc('acc_prog')" class="w3-button w3-block w3-left-align w3-large w3-text-theme">
-						<b><i class="fa fas fa-terminal fa-fw w3-margin-right w3-text-teal"></i>Programming Languages</b>
-					</button>
-					<div id="acc_prog" class="w3-hide">
-						<p style="margin-bottom: .125rem;">Python</p>
-						<div class="w3-light-grey w3-round-xlarge w3-small">
-							<div class="w3-round-xlarge w3-teal" style="height:18px; width:95%"></div>
-						</div>
-						<p style="margin-bottom: .125rem;">MATLAB</p>
-						<div class="w3-light-grey w3-round-xlarge w3-small">
-							<div class="w3-round-xlarge w3-teal" style="height:18px; width:85%"></div>
-						</div>
-						<p style="margin-bottom: .125rem;">C++</p>
-						<div class="w3-light-grey w3-round-xlarge w3-small">
-							<div class="w3-round-xlarge w3-teal" style="height:18px; width:50%"></div>
-						</div>
-						<p style="margin-bottom: .125rem;">Java</p>
-						<div class="w3-light-grey w3-round-xlarge w3-small">
-							<div class="w3-round-xlarge w3-teal" style="height:18px; width:45%"></div>
-						</div>
-						<p style="margin-bottom: .125rem;">JavaScript</p>
-						<div class="w3-light-grey w3-round-xlarge w3-small">
-							<div class="w3-round-xlarge w3-teal" style="height:18px; width:75%"></div>
-						</div>
-					</div>
-          <br>
-					
-				</div>
-			</div><br>
-
-		<!-- End Left Column -->
-		</div>
-
-		<!-- Right Column -->
-		<div class="w3-twothird">
-				
-			<h2>PAGE IN PROGRESS</h2>
-			
-			<!-- TODO: Portfolio 
-			-->
-			
-			<div class="w3-container w3-card w3-white w3-margin-bottom">
-			
-				<button onclick="toggle_acc('acc_prtf')" class="w3-button w3-block w3-left-align w3-large w3-text-theme">
-					<h2 class="w3-text-grey"><i class="fa fa-wrench fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Portfolio</h2>
-				</button>
-				<div id="acc_prtf" class="w3-hide">
-				
-				
-					<!--h2 class="w3-text-grey w3-padding-16"><i class="fa fa-wrench fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Portfolio</h2-->
-					<div class="w3-content w3-display-container" style="max-width:800px">
-						<div class="w3-display-container mySlides">
-							<img src="/img/hand_expl.png" style="width:100%" alt="Exploded view of mechanical hand">
-							<div class="w3-display-topleft w3-container w3-padding w3-light-grey">
-								CAD modeling project
-							</div>
-						</div>
-						<div class="w3-display-container mySlides">
-							<img src="/img/out-i2.png" style="width:100%" alt="Visualization from resistor network simulation">
-							<div class="w3-display-topleft w3-container w3-padding w3-light-grey">
-								Simulation of current flowing through a nonlinear resistor network
-							</div>
-						</div>
-						
-						<div class="w3-display-container mySlides">
-							<img src="https://www.stockvault.net/data/2007/03/01/102413/thumb16.jpg" style="width:100%">
-							<div class="w3-display-topleft w3-container w3-padding w3-light-grey">
-								Stock landscape image
-							</div>
-						</div>
-					
-						<!--img class="mySlides" src="/img/hand_expl.png" style="width:100%"-->
-						<!--img class="mySlides" src="/img/out-i2.png" style="width:100%"-->
-						<!--img class="mySlides" src="https://www.stockvault.net/data/2007/03/01/102413/thumb16.jpg" style="width:100%"-->
-						<div class="w3-center w3-container w3-section w3-xlarge w3-text-gray w3-display-bottommiddle" style="width:100%">
-							<div class="w3-left w3-hover-text-teal" onclick="plusDivs(-1)">&#10094;</div>
-							<div class="w3-right w3-hover-text-teal" onclick="plusDivs(1)">&#10095;</div>
-							<span class="w3-badge demo w3-border w3-transparent w3-hover-teal" onclick="currentDiv(1)"></span>
-							<span class="w3-badge demo w3-border w3-transparent w3-hover-teal" onclick="currentDiv(2)"></span>
-							<span class="w3-badge demo w3-border w3-transparent w3-hover-teal" onclick="currentDiv(3)"></span>
-						</div>
-					</div>
-				
-				</div>
-				
+			<!--img class="mySlides" src="/img/hand_expl.png" style="width:100%"-->
+			<!--img class="mySlides" src="/img/out-i2.png" style="width:100%"-->
+			<!--img class="mySlides" src="https://www.stockvault.net/data/2007/03/01/102413/thumb16.jpg" style="width:100%"-->
+			<div class="w3-center w3-container w3-section w3-xlarge w3-text-gray w3-display-bottommiddle" style="width:100%">
+				<div class="w3-left w3-hover-text-teal" onclick="plusDivs(-1)">&#10094;</div>
+				<div class="w3-right w3-hover-text-teal" onclick="plusDivs(1)">&#10095;</div>
+				<span class="w3-badge demo w3-border w3-transparent w3-hover-teal" onclick="currentDiv(1)"></span>
+				<span class="w3-badge demo w3-border w3-transparent w3-hover-teal" onclick="currentDiv(2)"></span>
+				<span class="w3-badge demo w3-border w3-transparent w3-hover-teal" onclick="currentDiv(3)"></span>
 			</div>
-			
-			
-			<div class="w3-container w3-card w3-white w3-margin-bottom">
-			
-				<button onclick="toggle_acc('acc_wrkx')" class="w3-button w3-block w3-left-align w3-large w3-text-theme">
-					<h2 class="w3-text-grey"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
-				</button>
-				<div id="acc_wrkx" class="w3-hide">
-					
-					<div class="w3-container">
-						<h5 class="w3-opacity"><b>Graduate Research Assistant, Brigham Young University</b></h5>
-						<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2023 – <span class="w3-tag w3-teal w3-round">Current</span></h6>
-						<ul>
-							<li>Studying damping in PBF AM parts</li>
-						</ul>
-						<hr>
-					</div>
-					
-					<div class="w3-container">
-						<h5 class="w3-opacity"><b>Teaching Assistant, Brigham Young University</b></h5>
-						<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>August 2022 – April 2023</h6>
-						<ul>
-							<li>Held office hours to help teach undergraduate and graduate-level dynamic system modeling</li>
-						</ul>
-						<hr>
-					</div>
-					
-					<div class="w3-container">
-						<h5 class="w3-opacity"><b>Research Fellow, Los Alamos National Laboratory</b></h5>
-						<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2022 – August 2022</h6>
-						<ul>
-							<li>Researched dynamic finite element updating of bolted joints with experimental modal analysis</li>
-						</ul>
-						<hr>
-					</div>
-					
-					<div class="w3-container">
-						<h5 class="w3-opacity"><b>Undergraduate Research Assistant, Brigham Young University</b></h5>
-						<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>August 2022 – April 2023</h6> 
-						<ul>
-							<li>Studied neuromorphic nanostrand networks</li>
-							<li>Developed GPU-accelerated software for simulating large nonlinear resistor networks</li>
-							<li>Worked on a team to redesign and manufacture a pneumatically actuated joint for a soft robot</li>
-						</ul>
-						<hr>
-					</div>
-					
-					<div class="w3-container">
-						<h5 class="w3-opacity"><b>Programmer, Contracted</b></h5>
-						<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>February 2016 - May 2022</h6>
-						<ul>
-							<li>Dynamic website development</li>
-							<li>Created the server-side and client-side programs and designed the user interface</li>
-						</ul>
-						<hr>
-					</div>
-					
-					<div class="w3-container">
-						<h5 class="w3-opacity"><b>Volunteer, Church of Jesus Christ of Latter-day Saints - Pernambuco, Brazil</b></h5>
-						<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2017 - October 2019</h6> 
-						<ul>
-							<li>Maintained rigorous 60+ hour work weeks</li>
-							<li>Led groups of 6 to 30, providing training, support, and supervision</li>
-						</ul>
-						<!--hr-->
-					</div>
-				
-				</div>
-				
-			</div>
-
-			<div class="w3-container w3-card w3-white">
-			
-				<button onclick="toggle_acc('acc_educ')" class="w3-button w3-block w3-left-align w3-large w3-text-theme">
-					<h2 class="w3-text-grey"><i class="fa fas fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-				</button>
-				<div id="acc_educ" class="w3-hide w3-show">
-				
-					<div class="w3-container">
-						<h5 class="w3-opacity"><b>Brigham Young University, Provo, UT</b></h5>
-						<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - Present</h6>
-						<ul>
-							<li>Master of Science in Mechanical Engineering (Expected April 2025)</li>
-							<li>Bachelor of Science in Mechanical Engineering (April 2023)</li>
-							<li>Scholastic honors: <i>magna cum laude</i> (GPA: 3.99)</li>
-						</ul>
-						<hr>
-					</div>
-				</div>
-				
-			</div>
-
-		<!-- End Right Column -->
 		</div>
 		
-	<!-- End Grid -->
 	</div>
 	
-	<!-- End Page Container -->
-</div>
+	<!-- Details -->
+	<div class="w3-container w3-card w3-white w3-margin-bottom w3-padding">
+
+		<div class="w3-container slideDescriptions">
+			<h3>CAD hand</h3>
+			TODO
+			<p>
+				This CAD model was based on an artistic rendition of a mechanical hand.
+			</p>
+		</div>
+		<div class="w3-container slideDescriptions">
+			<h3>NMLAB</h3>
+			<p>
+				NMLAB TODO
+			</p>
+		</div>
+		<div class="w3-container slideDescriptions">
+			<h3>Stock landscape image</h3>
+			<p>
+				This is a placeholder for testing.
+			</p>
+		</div>
+		
+	</div>
+	
+	
 
 <footer class="w3-container w3-teal w3-center w3-margin-top">
 	
@@ -287,7 +139,7 @@
 		</p>
 	
 		<p>
-			Last Updated: 2023-06-06
+			Last Updated: 2023-06-17
 		</p>
 	</div>
 	
@@ -304,16 +156,20 @@
 </footer>
 
 
-<script>
-// For accordians
+<!-- End page content -->
+</div>
 
-function toggle_acc(id) {
-  var x = document.getElementById(id);
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
 }
 
 // For slideshow
@@ -332,20 +188,22 @@ function currentDiv(n) {
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
+	var y = document.getElementsByClassName("slideDescriptions");
   var dots = document.getElementsByClassName("demo");
   if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
+    y[i].style.display = "none";  
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" w3-teal", "");
   }
   x[slideIndex-1].style.display = "block";  
+  y[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " w3-teal";
 }
 </script>
-
 
 </body>
 </html>
