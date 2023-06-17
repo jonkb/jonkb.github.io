@@ -12,6 +12,7 @@
 	.mySlides {display:none}
 	.w3-left, .w3-right, .w3-badge {cursor:pointer}
 	.w3-badge {height:13px;width:13px;padding:0}
+	hr {margin: 1rem 0}
 	</style>
 </head>
 <body class="w3-light-grey">
@@ -184,7 +185,7 @@
 					</div>
 					
 					<div class="w3-container">
-						<h5 class="w3-opacity"><b>Volunteer, Church of Jesus Christ of Latter-day Saints - Pernambuco, Brazil</b></h5>
+						<h5 class="w3-opacity"><b>Volunteer, Church of Jesus Christ of Latter-day Saints &ndash; Pernambuco, Brazil</b></h5>
 						<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2017 - October 2019</h6> 
 						<ul>
 							<li>Maintained rigorous 60+ hour work weeks</li>
@@ -202,7 +203,7 @@
 				<button onclick="toggle_acc('acc_educ')" class="w3-button w3-block w3-left-align w3-large w3-text-theme">
 					<h2 class="w3-text-grey"><i class="fa fas fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
 				</button>
-				<div id="acc_educ" class="w3-hide w3-show">
+				<div id="acc_educ" class="w3-hide">
 				
 					<div class="w3-container">
 						<h5 class="w3-opacity"><b>Brigham Young University, Provo, UT</b></h5>
@@ -237,7 +238,7 @@
 		</p>
 	
 		<p>
-			Last Updated: 2023-06-06
+			Last Updated: 2023-06-17
 		</p>
 	</div>
 	
@@ -266,34 +267,6 @@ function toggle_acc(id) {
   }
 }
 
-// For slideshow
-
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" w3-teal", "");
-  }
-  x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-teal";
-}
 </script>
 
 
